@@ -1,0 +1,618 @@
+[
+    {
+        "model": "document.speciality",
+        "pk": 432,
+        "fields": {
+            "speciality_name": "Философия религии и религиоведение Искусствоведение и культурология",
+            "speciality_code": "09.00.14"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 433,
+        "fields": {
+            "speciality_name": "Изобразительное и декоративно- прикладное искусство и архитектура",
+            "speciality_code": "17.00.04"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 434,
+        "fields": {
+            "speciality_name": "Природоресурсное право; аграрное право; экологическое право",
+            "speciality_code": "12.00.06"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 435,
+        "fields": {
+            "speciality_name": "Луговодство и лекарственные, эфирно- масличные культуры",
+            "speciality_code": "06.01.06"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 436,
+        "fields": {
+            "speciality_name": "Транспортные и транспортно- технологические системы страны, ее регионов и городов, организация производства на транспорте",
+            "speciality_code": "05.22.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 437,
+        "fields": {
+            "speciality_name": "Технология и товароведение пищевых продуктов и функционального и специализированного назначения и общественного питания",
+            "speciality_code": "05.18.15"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 438,
+        "fields": {
+            "speciality_name": "Конституционное право; муниципальное право",
+            "speciality_code": "12.00.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 439,
+        "fields": {
+            "speciality_name": "Административное право, финансовое право, информационное право",
+            "speciality_code": "12.00.14"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 440,
+        "fields": {
+            "speciality_name": "Медико-социальная экспертиза и медико- социальная реабилитация",
+            "speciality_code": "14.02.06"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 441,
+        "fields": {
+            "speciality_name": "Судебная власть, прокурорский надзор, организация правоохранительной деятельности",
+            "speciality_code": "12.00.11"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 442,
+        "fields": {
+            "speciality_name": "Дорожные, строительные и подъемно- транспортные машины",
+            "speciality_code": "05.05.04"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 443,
+        "fields": {
+            "speciality_name": "Уголовный процесс, криминалистика; оперативно-розыскная деятельность",
+            "speciality_code": "12.00.09"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 444,
+        "fields": {
+            "speciality_name": "Технологии и средства механизации сельского хозяйст",
+            "speciality_code": "05.20.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 445,
+        "fields": {
+            "speciality_name": "Градостроительство, планировка сельскохозяйственных населенных пунктов",
+            "speciality_code": "05.23.22"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 446,
+        "fields": {
+            "speciality_name": "Частная зоотехния, технология производства продуктов",
+            "speciality_code": "06.02.10"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 447,
+        "fields": {
+            "speciality_name": "Транспортные и транспортно-технологические системы",
+            "speciality_code": "05.22.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 448,
+        "fields": {
+            "speciality_name": "Металлургия черных, цветных и редких металлов.",
+            "speciality_code": "05.16.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 449,
+        "fields": {
+            "speciality_name": "Литература народов стран зарубежья (с указанием конкретной литературы)",
+            "speciality_code": "10.01.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 450,
+        "fields": {
+            "speciality_name": "Тепловые, электроракетные двигатели и энергетические установки летательных аппаратов",
+            "speciality_code": "05.07.05"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 451,
+        "fields": {
+            "speciality_name": "Биотехнология пищевых продуктов и биологически активных веществ",
+            "speciality_code": "05.18.07"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 452,
+        "fields": {
+            "speciality_name": "Геохимия, геохимические методы поисков полезных ископаемых",
+            "speciality_code": "25.00.09"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 453,
+        "fields": {
+            "speciality_name": "Электростанции и электроэнергетические системы",
+            "speciality_code": "05.14.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 454,
+        "fields": {
+            "speciality_name": "Приборы и методы контроля природной среды, веществ,материалов и изделий",
+            "speciality_code": "05.11.13"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 455,
+        "fields": {
+            "speciality_name": "Физика и технология наноструктур, атомная и молекул",
+            "speciality_code": "01.04.15"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 456,
+        "fields": {
+            "speciality_name": "Языки народов Российской федерации (с указанием конкретного языка или языковой семьи)",
+            "speciality_code": "10.02.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 457,
+        "fields": {
+            "speciality_name": "Электротехнологии и электрооборудование в сельском",
+            "speciality_code": "05.20.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 458,
+        "fields": {
+            "speciality_name": "Технология кожи, меха, обувных и кожевенно-галантер",
+            "speciality_code": "05.19.05"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 459,
+        "fields": {
+            "speciality_name": "Агролесомелиорация и защитное лесоразведение, озеленение населенных пунктов ,лесные пожары и борьба с ними",
+            "speciality_code": "06.03.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 460,
+        "fields": {
+            "speciality_name": "Системный анализ, управление и обработка информации",
+            "speciality_code": "05.13.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 461,
+        "fields": {
+            "speciality_name": "Изобразительное и декоративно-прикладное искусство",
+            "speciality_code": "17.00.04"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 462,
+        "fields": {
+            "speciality_name": "Электротехнические комплексы и системы",
+            "speciality_code": "05.09.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 463,
+        "fields": {
+            "speciality_name": "Вакуумная и плазменная электроника.",
+            "speciality_code": "05.27.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 464,
+        "fields": {
+            "speciality_name": "Литература народов Российской Федерации (с указанием конкретной литературы)",
+            "speciality_code": "10.01.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 465,
+        "fields": {
+            "speciality_name": "Оптические и оптико-электронные приборы и комплексы.",
+            "speciality_code": "05.11.07"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 466,
+        "fields": {
+            "speciality_name": "Социальная структура, социальные институты и процес",
+            "speciality_code": "22.00.04"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 467,
+        "fields": {
+            "speciality_name": "Ядерная и радиационная безопасность",
+            "speciality_code": "05.26.05"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 468,
+        "fields": {
+            "speciality_name": "Математическое и программное обеспечение вычислительных машин ,комплексов компьютерных сетей",
+            "speciality_code": "05.13.11"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 469,
+        "fields": {
+            "speciality_name": "Кормопроизводство, кормление сельскохозяйственных животных",
+            "speciality_code": "06.02.08"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 470,
+        "fields": {
+            "speciality_name": "Технология и товароведение продуктов функционального и специализированного назначения и общественного питания",
+            "speciality_code": "05.18.15"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 471,
+        "fields": {
+            "speciality_name": "Общее земледелие",
+            "speciality_code": "06.01.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 472,
+        "fields": {
+            "speciality_name": "Ядерные энергетические установки, включая проектирование",
+            "speciality_code": "05.14.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 473,
+        "fields": {
+            "speciality_name": "Методы и системы защиты информации, информационная",
+            "speciality_code": "05.13.19"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 474,
+        "fields": {
+            "speciality_name": "Геология, поиски и разведка твердых полезных ископаемых",
+            "speciality_code": "25.00.11"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 475,
+        "fields": {
+            "speciality_name": "Автоматизация и управление технологическими процесс",
+            "speciality_code": "05.13.06"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 476,
+        "fields": {
+            "speciality_name": "Библиотековедение, библиографоведение и книговедени",
+            "speciality_code": "05.25.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 477,
+        "fields": {
+            "speciality_name": "Теоретическая электротехника.",
+            "speciality_code": "05.09.05"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 478,
+        "fields": {
+            "speciality_name": "Финансовое право; налоговое право; бюджетное право.",
+            "speciality_code": "12.00.04"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 479,
+        "fields": {
+            "speciality_name": "Химическая физика, горение и взрыв, физика экстрема",
+            "speciality_code": "01.04.17"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 480,
+        "fields": {
+            "speciality_name": "Диагностика болезней и терапия животных, патология",
+            "speciality_code": "06.02.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 481,
+        "fields": {
+            "speciality_name": "Технология и первичная обработка текстильных материалов",
+            "speciality_code": "05.19.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 482,
+        "fields": {
+            "speciality_name": "Теория и методика физического воспитания, спортивной тренировки,оздоровительной и адаптивной физической культуры)",
+            "speciality_code": "13.00.04"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 483,
+        "fields": {
+            "speciality_name": "Твердотельная электроника, радиоэлектронные компоненты, микро - и нано -электроника , приборы на квантовых эффектах",
+            "speciality_code": "05.27.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 484,
+        "fields": {
+            "speciality_name": "Социология культуры, духовной жизни",
+            "speciality_code": "22.00.06"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 485,
+        "fields": {
+            "speciality_name": "Химическая технология топлива и высокоэнергетически",
+            "speciality_code": "05.17.07"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 486,
+        "fields": {
+            "speciality_name": "Гражданский процесс арбитражный процесс",
+            "speciality_code": "12.00.15"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 487,
+        "fields": {
+            "speciality_name": "Гражданское право предпринимательское право семейное право; международное частное право",
+            "speciality_code": "12.00.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 488,
+        "fields": {
+            "speciality_name": "Теплоснабжение, вентиляция, кондиционирование воздуха",
+            "speciality_code": "05.23.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 489,
+        "fields": {
+            "speciality_name": "Проектирование и конструкции судов.",
+            "speciality_code": "05.08.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 490,
+        "fields": {
+            "speciality_name": "Языки народов зарубежных стран Европы, Азии, Африки",
+            "speciality_code": "10.02.22"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 491,
+        "fields": {
+            "speciality_name": "Теория литературы, текстология",
+            "speciality_code": "10.01.08"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 492,
+        "fields": {
+            "speciality_name": "Теория и методика обучения и воспитания (по областям)",
+            "speciality_code": "13.00.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 493,
+        "fields": {
+            "speciality_name": "Теория корабля и строительная механика.",
+            "speciality_code": "05.08.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 494,
+        "fields": {
+            "speciality_name": "Теория и философия политики, история и методология",
+            "speciality_code": "23.00.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 495,
+        "fields": {
+            "speciality_name": "Математическая логика, алгебра и теория чисел.",
+            "speciality_code": "01.01.06"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 496,
+        "fields": {
+            "speciality_name": "Проектирование и строительство дорог, метрополитено",
+            "speciality_code": "05.23.11"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 497,
+        "fields": {
+            "speciality_name": "Коррекционная педагогика (сурдопедагогика и тифлопедагогика,олигофренопедагогика и логопеия)",
+            "speciality_code": "13.00.03"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 498,
+        "fields": {
+            "speciality_name": "Антенны, СВЧ устройства и их технологии",
+            "speciality_code": "05.12.07"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 499,
+        "fields": {
+            "speciality_name": "Радиолокация и радионавигация.",
+            "speciality_code": "05.12.14"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 500,
+        "fields": {
+            "speciality_name": "Философия и история религии, философская антропология, философия культуры",
+            "speciality_code": "09.00.13"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 501,
+        "fields": {
+            "speciality_name": "Электротехнические материалы и изделия",
+            "speciality_code": "05.09.02"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 502,
+        "fields": {
+            "speciality_name": "Теоретические основы информатики.",
+            "speciality_code": "05.13.17"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 503,
+        "fields": {
+            "speciality_name": "Механика деформируемого твердого тела.",
+            "speciality_code": "01.02.04"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 504,
+        "fields": {
+            "speciality_name": "Роботы, мехатроника и робототехнические системы",
+            "speciality_code": "05.02.05"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 505,
+        "fields": {
+            "speciality_name": "Гидравлические машины, гидропневмоагрегаты",
+            "speciality_code": "05.04.13"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 506,
+        "fields": {
+            "speciality_name": "Технология обработки, хранения и переработки злаков",
+            "speciality_code": "05.18.01"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 507,
+        "fields": {
+            "speciality_name": "Гастроэнтэрология",
+            "speciality_code": "14.01.28"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 508,
+        "fields": {
+            "speciality_name": "Строительство и эксплуатация нефтегазоводов, баз и хранилищ",
+            "speciality_code": "25.00.19"
+        }
+    }
+]

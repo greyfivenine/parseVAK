@@ -1,0 +1,91 @@
+{% extends 'document/base.html' %}
+
+{% block title %}
+    Приказ {{ doc.document_number }} - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="doc-header mt-2 mb-2">
+        <div class="row justify-content-between m-0">
+            <div class="doc-info">
+                <p>Дата: {{ doc.document_date }}</p>
+            </div>
+            <div class="doc-info">
+                <p>Номер: {{ doc.document_number }}</p>
+            </div>
+        </div>
+        <div class="doc-name">
+            <h1>{{ doc.document_name }}</h1>
+        </div>
+    </div>
+
+    {% if doc.document_type_id == 2 %}
+
+        <table class="table table-bordered table-hover table-responsive-lg">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ФИО, номер аттестационного дела, дата регистрации</th>
+                    <th scope="col">Звание</th>
+                    <th scope="col">Научная специальность</th>
+                    <th scope="col">ВУЗ</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for doc_row in doc.doc_rows.all %}
+                    <tr>
+                        <th scope="row">{{ forloop.counter }}</th>
+                        <td>{{ doc_row.certificate_number.person.full_name }},
+                            {% if doc_row.certificate_number.person.nationality %}
+                            Гражданство: {{ doc_row.certificate_number.person.nationality }}
+                            {% endif %}
+                            <p class="mb-0 date_bold">№ {{ doc_row.certificate_number }}</p>
+                        <p class="mb-0 date_bold">{{ doc_row.certificate_number.registration_date }}</p></td>
+                        <td>{{ doc_row.rank }}</td>
+                        <td>{{ doc_row.speciality }}</td>
+                        <td>{{ doc_row.university }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+
+    {% elif doc.document_type_id == 3 %}
+
+        <table class="table table-bordered table-hover table-responsive-lg">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ФИО, номер аттестационного дела, дата регистрации</th>
+                    <th scope="col">Степень</th>
+                    <th scope="col">Совет на базе, дата защиты, № решения</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for doc_row in doc.doc_rows.all %}
+                    <tr>
+                        <th scope="row">{{ forloop.counter }}</th>
+                        <td>{{ doc_row.certificate_number.person.full_name }},
+                            {% if doc_row.certificate_number.person.nationality %}
+                            Гражданство: {{ doc_row.certificate_number.person.nationality }}
+                            {% endif %}
+                            <p class="mb-0 date_bold">№ {{ doc_row.certificate_number }}</p>
+                        <p class="mb-0 date_bold">{{ doc_row.certificate_number.registration_date }}</p></td>
+                        <td>{{ doc_row.degree }} {{ doc_row.science }}</td>
+                        <td> {{ doc_row.council }}
+                        <p class="date_bold">{{ doc_row.defence_date }}, № {{ doc_row.decision_num }}</p></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    {% else %}
+        <div class="doc-header mt-2 mb-2">
+            <div class="doc-name">
+                <h1>Что-то пошло не так</h1>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}

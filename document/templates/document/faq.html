@@ -1,0 +1,69 @@
+{% extends 'document/base.html' %}
+
+{% block title %}
+    FAQ - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-5 mt-5">FAQ:</h1>
+
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Где найти нужный мне документ?
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Список всех документов можно найти на вкладке <a href="#">Документы</a> или на вкладке <a href="#">Поиск</a> ввести поисковый запрос. Если такой документ уже загружен на сайт, он появится в поисковой выдаче.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Нужного мне документа нет ни в списке всех документов, ни в поисковой выдаче. Что делать?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Возможно ваш документ еще не был обработан и загружен на сайт. Подождите несколько часов и попробуйте снова. Если ваш документ не появился в списке, уведомите об этом администрацию сайта на вкладке <a href="#">Обратная связь</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Могу ли я загрузить свой документ на обработку?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Нет, такого функционала сайт не предоставляет. Все документы берутся с официального сайта ВАК расположенного по адресу  <a href="https://vak.minobrnauki.gov.ru/main">https://vak.minobrnauki.gov.ru/main</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        В наименовании ВУЗа, специальности, ФИО и т.п. была найдена ошибка/неточность. Что делать?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Помимо ошибок, которые были допущены при составлении документа, существуют также алгоритмические ошибки. В исходном виде все документы на сайте ВАК представляют собой набор изображений формата .JPEG. Для того чтобы извлечь из них текст применяетя нейронная сеть OCR-Tesseract разрабатываемая компанией Google. Так как результат нейронной сети неточен, ошибки просто неизбежны. Если вы нашли такую ошибку, просьба сообщить о ней на странице <a href="">Обратная связь</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'document/base.html' %}
+
+{% block title %}
+    Обратная связь - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <div class="main-page-text">
+        <h1 class="text-center mb-5 mt-5">Обратная связь</h1>
+    </div>
+
+    <form class="feedback" action="index.html" method="post">
+        <div class="form-group">
+            <label for="inputName">Ваше имя:</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Введите ваше имя">
+        </div>
+        <div class="form-group">
+            <label for="inputEmail">Ваш адрес электронной почты:</label>
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Введите адрес электронной почты">
+        </div>
+        <div class="form-group">
+            <label for="inputTheme">Тема письма:</label>
+            <input type="text" class="form-control" id="inputTheme" placeholder="Введите тему письма">
+        </div>
+        <div class="form-group">
+            <label for="inputTextArea">Опишите вашу проблему:</label>
+            <textarea class="form-control" id="inputTextArea" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+    </form>
+{% endblock %}

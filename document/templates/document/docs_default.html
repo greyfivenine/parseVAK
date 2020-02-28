@@ -1,0 +1,89 @@
+{% extends 'document/base.html' %}
+
+{% block title %}
+    Документы - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <script>
+        function onPaginateClick(e){
+            document.getElementById("inputPage").value = e;
+            document.getElementById("search_form").submit();
+        };
+    </script>
+
+    <div class="main-page-text">
+        <h1 class="text-center mb-5 mt-5">Поиск</h1>
+    </div>
+
+    <!-- Форма поиска -->
+
+    <form class="feedback" id="search_form" action="{% url 'get_documents_page' %}" method="get">
+        {% csrf_token %}
+        <div class="form-row">
+            <div class="form-group col-md-7">
+                <label for="inputDocName">Наименование документа: </label>
+                <input value="{{ form.doc_name }}"  type="text" class="form-control" name="doc_name" id="inputDocName" placeholder="Напр. &quot;Приказ о выдаче...&quot;">
+            </div>
+            <div class="form-group col-md-5">
+                <label for="inputDocNum">Номер документа: </label>
+                <input value="{{ form.doc_num }}" type="text" class="form-control" name="doc_num" id="inputDocNum" placeholder="Напр. &quot;769нк&quot;">
+
+                <input type="hidden" name="page" id="inputPage">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-8">
+                <label for="inputDocType">Тип документа: </label>
+                <select name="doc_type" class="form-control" id="inputDocType">
+                    <option {% if form.doc_type == 0 %} selected {% endif %} value="0">Не выбрано</option>
+                    <option {% if form.doc_type == 3 %} selected {% endif %} value="3">Приказ о выдаче</option>
+                    <option {% if form.doc_type == 2 %} selected {% endif %} value="2 ">Приказ о присвоении</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputDateFrom">Дата от: </label>
+                <input value="{{ form.doc_datefrom|date:"Y-m-d" }}" type="date" class="form-control" name="doc_datefrom" id="inputDateFrom">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputDateTo">Дата до: </label>
+                <input value="{{ form.doc_dateto|date:"Y-m-d" }}" type="date" class="form-control" name="doc_dateto" id="inputDateTo">
+            </div>
+        </div>
+
+        <div class="form-row justify-content-end">
+            <button type="submit" class="btn btn-lg btn-secondary mr-1">Поиск</button>
+        </div>
+    </form>
+
+    <div class="main-page-text">
+        <h1 class="text-center mb-5 mt-5">{{ header }}</h1>
+    </div>
+
+    <!-- Документы -->
+
+    <div class="recently__added mb-1">
+        <ul class="order__list">
+            {% for doc in page.object_list %}
+                <li><a class="order__link" href="{{ doc.get_absolute_url }}">{{ doc.document_name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Пагинация -->
+
+    <div class="container text-center p0 mb-2">
+        <ul class="pagination justify-content-center">
+            <li><a onclick="onPaginateClick({{ first_page_url }})">В начало</a></li>
+            {% for n in page.paginator.page_range %}
+                {% if page.number == n %}
+                    <li class="active"><a onclick="onPaginateClick({{ n }})">{{ n }}</a></li>
+                {% elif n > page.number|add:-3 and n < page.number|add:3 %}
+                    <li><a onclick="onPaginateClick({{ n }})">{{ n }}</a></li>
+                {% endif %}
+            {% endfor %}
+            <li><a onclick="onPaginateClick({{ last_page_url }})">В конец</a></li>
+        </ul>
+    </div>
+{% endblock %}
