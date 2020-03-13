@@ -5,8 +5,60 @@
 {% endblock %}
 
 {% block content %}
-    <div class="main-page-text">
-        <h1 class="text-center mb-5 mt-5">Приветствуем!</h1>
-        <p>На данном сайте собраны все приказы ВАК при Министерсте науки и высшего образования Российской Федерации. Для доступа к нужному документу вы можете воспользоваться поиском или выбрать нужный приказ на странице <a href="#">приказы</a>.</p>
-    </div>
+
+    {% if flag %}
+        <div class="main-page-text doc-link">
+            <h1 class="text-center mb-5 mt-5">Приветствуем!</h1>
+            <p>На данном сайте собраны все приказы ВАК при Министерсте науки и высшего образования Российской Федерации. Для доступа к нужному документу вы можете воспользоваться поиском на вкладке <a href="{% url 'get_documents_page' %}">"Поиск"</a> или воспользоваться быстрым поиском по ФИО ниже.</p>
+        </div>
+
+        <div class="main-page-text">
+            <h1 class="text-center mb-5 mt-5">Быстрый поиск</h1>
+        </div>
+
+        <form class="feedback" action="{% url 'get_index_page' %}" method="get">
+            {% csrf_token %}
+            <div class="form-row">
+                <div class="form-group col-md">
+                    <label for="inputDocName">Введите ФИО: </label>
+                    <input type="text" class="form-control" id="inputPersonName" name="person_name" placeholder="Напр. &quot;Иванов Иван...&quot;">
+                </div>
+            </div>
+
+            <div class="form-row justify-content-end">
+                <button type="submit" class="btn btn-secondary">Поиск</button>
+            </div>
+
+        </form>
+    {% else %}
+        <div class="main-page-text">
+            <h1 class="text-center mb-5 mt-5">Результа поиска для "{{ person_name }}"</h1>
+        </div>
+        <table class="table table-bordered table-hover table-responsive-lg">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ФИО, номер аттестационного дела, дата регистрации</th>
+                    <th scope="col">Ссылка на документ</th>
+                </tr>
+            </thead>
+            <tbody>
+        {% for doc_row in search_result %}
+            <tr>
+                <th scope="row">{{ forloop.counter }}</th>
+                <td class="align-middle">{{ doc_row.certificate_number.person.full_name }},
+                    {% if doc_row.certificate_number.person.nationality %}
+                        Гражданство: {{ doc_row.certificate_number.person.nationality }},
+                    {% endif %}
+                    <b>{{ doc_row.certificate_number }} {{ doc_row.certificate_number.registration_date }}</b></td>
+
+                <td class="align-middle text-center doc-link"><a href="{{ doc_row.document.get_absolute_url }}">{{ doc_row.document.document_number }}</a></td>
+            </tr>
+        {% endfor %}
+            </tbody>
+        </table>
+
+    {% endif %}
+
+
 {% endblock %}

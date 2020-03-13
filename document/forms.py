@@ -8,3 +8,6 @@ class SearchForm(forms.Form):
     doc_datefrom = forms.DateTimeField(required=False)
     doc_dateto = forms.DateTimeField(required=False)
     page = forms.IntegerField(required=False)
+
+class FastSearchForm(forms.Form):
+    person_name = forms.CharField(max_length=100, required=True)

@@ -18,7 +18,6 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-color: #f8f8f8;
-    height: auto!important;
 }
 
 table{
@@ -77,9 +76,64 @@ table{
     font-weight: 400;
 }
 
+.doc-info a:link{
+    color: #212529;
+    text-decoration: none;
+}
+
+.doc-info a:visited{
+    color: #212529;
+    text-decoration: none;
+}
+
+.doc-info a:hover{
+    color: #717C8B;
+    text-decoration: none;
+}
+
+.doc-info a:link:active{
+    color: #454E56;
+}
+
+.doc-info a:visited:active {
+    color: #454E56;
+}
+
 .doc-name{
     margin-bottom: 20px;
 }
+
+.doc-link{
+    font-size: 18px;
+}
+
+.doc-link a:link{
+    color: #212529;
+    text-decoration: none;
+}
+
+.doc-link a:visited{
+    color: #212529;
+    text-decoration: none;
+}
+
+.doc-link a:hover{
+    color: #717C8B;
+    text-decoration: none;
+    border-bottom: 2px dotted;
+}
+
+.doc-link a:link:active{
+    color: #454E56;
+}
+
+.doc-link a:visited:active {
+    color: #454E56;
+}
+
+/* .table td {
+   text-align: center;
+} */
 
 .border{
     border-bottom: 2px solid #C5CEDC!important;
@@ -191,9 +245,4 @@ thead{
 
 .pagination li:hover:not(.active) a {
   background-color: #ddd;
-}
-
-.disabled {
-  color: gray!important;
-  pointer-events: none;
 }

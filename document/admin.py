@@ -16,6 +16,7 @@ class CertificateNumberAdmin(admin.ModelAdmin):
         model = CertificateNumber
 
     list_display = [field.name for field in CertificateNumber._meta.fields]
+    search_fields = ['person__full_name']
 
 class UniversityAdmin(admin.ModelAdmin):
     class Meta:
@@ -29,7 +30,7 @@ class PreambleAdmin(admin.ModelAdmin):
         model = Preamble
 
     list_display = [field.name for field in Preamble._meta.fields]
-    preamble = ['university_name']
+    search_fields = ['preamble_short', 'preamble']
 
 class CouncilAdmin(admin.ModelAdmin):
     class Meta:
@@ -42,14 +43,16 @@ class DocumentAdmin(admin.ModelAdmin):
         model = Document
 
     list_display = [field.name for field in Document._meta.fields]
-    search_fields = ['document_name']
+    list_filter = ['document_type', 'document_date']
+    search_fields = ['document_name', 'document_number']
 
 class DocumentRowAdmin(admin.ModelAdmin):
     class Meta:
         model = DocumentRow
 
-    list_display = ['document', 'certificate_number', 'science', 'rank']
+    list_display = ['document', 'certificate_number', 'science', 'speciality', 'rank', 'degree']
     list_filter = ['document']
+    search_fields = ['certificate_number__certificate_number', 'speciality__speciality_name', 'science__science_name']
 
 admin.site.register(Person, PersonAdmin)
 admin.site.register(CertificateNumber, CertificateNumberAdmin)
