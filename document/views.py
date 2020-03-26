@@ -70,5 +70,8 @@ class DocumentList(View):
                 'form':bound_form.cleaned_data
             }
 
+            if form_data:
+                context['header'] = 'Результат поиска'
+
             return render(request, 'document/docs_default.html', context = context)
         raise Http404("Page not found")

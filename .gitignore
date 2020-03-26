@@ -1,1 +1,3 @@
 parsevak/settings.py
+__pycache__
+*.pyc
