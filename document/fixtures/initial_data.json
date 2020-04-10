@@ -225,56 +225,64 @@
         "model": "document.science",
         "pk": 18,
         "fields": {
-            "science_name": "технических"
+            "science_name": "технических наук"
         }
     },
    {
         "model": "document.science",
         "pk": 19,
         "fields": {
-            "science_name": "фармацевтических"
+            "science_name": "фармацевтических наук"
         }
     },
    {
         "model": "document.science",
         "pk": 20,
         "fields": {
-            "science_name": "физико-математических"
+            "science_name": "физико-математических наук"
         }
     },
    {
         "model": "document.science",
         "pk": 21,
         "fields": {
-            "science_name": "филологических"
+            "science_name": "филологических наук"
         }
     },
    {
         "model": "document.science",
         "pk": 22,
         "fields": {
-            "science_name": "философских"
+            "science_name": "философских наук"
         }
     },
    {
         "model": "document.science",
         "pk": 23,
         "fields": {
-            "science_name": "химических"
+            "science_name": "химических наук"
         }
     },
    {
         "model": "document.science",
         "pk": 24,
         "fields": {
-            "science_name": "экономических"
+            "science_name": "экономических наук"
         }
     },
    {
         "model": "document.science",
         "pk": 25,
         "fields": {
-            "science_name": "юридических"
+            "science_name": "юридических наук"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1,
+        "fields": {
+            "speciality_name": "Н/Д",
+            "speciality_code": "01.01.01"
         }
     },
     {

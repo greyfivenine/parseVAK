@@ -9,23 +9,39 @@
         <h1 class="text-center mb-5 mt-5">Обратная связь</h1>
     </div>
 
-    <form class="feedback" action="index.html" method="post">
+    <form class="feedback" action="{% url 'get_feedback_page' %}" method="post">
+        {% csrf_token %}
+
+        {% if flag %}
+            {% if errors %}
+                <div class="alert alert-danger" role="alert">
+                    {% for elem in errors.values %}
+                        {{ elem }}
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="alert alert-success" role="alert">
+                    Ваш отзыв был добавлен! Следующая попытка возможна через 15 минут.
+                </div>
+            {% endif %}
+        {% endif %}
+
         <div class="form-group">
             <label for="inputName">Ваше имя:</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Введите ваше имя">
+            <input name="name" type="text" class="form-control" id="inputName" placeholder="Введите ваше имя">
         </div>
         <div class="form-group">
             <label for="inputEmail">Ваш адрес электронной почты:</label>
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Введите адрес электронной почты">
+            <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Введите адрес электронной почты">
         </div>
         <div class="form-group">
             <label for="inputTheme">Тема письма:</label>
-            <input type="text" class="form-control" id="inputTheme" placeholder="Введите тему письма">
+            <input name="theme" type="text" class="form-control" id="inputTheme" placeholder="Введите тему письма">
         </div>
         <div class="form-group">
             <label for="inputTextArea">Опишите вашу проблему:</label>
-            <textarea class="form-control" id="inputTextArea" rows="5"></textarea>
+            <textarea name="text" class="form-control" id="inputTextArea" rows="5"></textarea>
         </div>
-        <button type="submit" class="btn btn-secondary">Submit</button>
+        <button type="submit" class="btn btn-secondary">Отправить</button>
     </form>
 {% endblock %}

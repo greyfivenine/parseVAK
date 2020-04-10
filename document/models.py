@@ -3,6 +3,15 @@ from django.shortcuts import reverse
 
 # Create your models here.
 
+class Feedback(models.Model):
+    name = models.CharField(max_length=30, verbose_name="Имя отправителя")
+    email = models.CharField(max_length=70, verbose_name="Email")
+    theme = models.CharField(max_length=100, verbose_name="Тема сообщения")
+    text = models.TextField(verbose_name="Текст сообщения")
+
+    def __str__(self):
+        return 'Тема: {0}, От: {1}'.format(self.theme, self.name)
+
 class Person(models.Model):
     full_name = models.CharField(max_length=110, db_index=True, verbose_name="ФИО")
     nationality = models.CharField(max_length=40, blank=True, null=True, default='', verbose_name="Гражданство")
@@ -84,7 +93,7 @@ class Document(models.Model):
         return self.document_number
 
     class Meta:
-        ordering = ['-document_create_date']
+        ordering = ['-document_date']
 
 class DocumentRow(models.Model):
     document = models.ForeignKey('Document', on_delete=models.CASCADE, verbose_name="УИД документа", related_name="doc_rows")

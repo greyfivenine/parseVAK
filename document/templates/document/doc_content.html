@@ -36,7 +36,7 @@
                 </tr>
             </thead>
             <tbody>
-                {% for doc_row in doc.doc_rows.all %}
+                {% for doc_row in doc_rows %}
                     <tr>
                         <th scope="row">{{ forloop.counter }}</th>
                         <td>{{ doc_row.certificate_number.person.full_name }},
@@ -67,7 +67,7 @@
                 </tr>
             </thead>
             <tbody>
-                {% for doc_row in doc.doc_rows.all %}
+                {% for doc_row in doc_rows %}
                     <tr>
                         <th scope="row">{{ forloop.counter }}</th>
                         <td>{{ doc_row.certificate_number.person.full_name }},
