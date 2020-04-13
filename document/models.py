@@ -4,7 +4,7 @@ from django.shortcuts import reverse
 # Create your models here.
 
 class Feedback(models.Model):
-    name = models.CharField(max_length=30, verbose_name="Имя отправителя")
+    name = models.CharField(max_length=50, verbose_name="Имя отправителя")
     email = models.CharField(max_length=70, verbose_name="Email")
     theme = models.CharField(max_length=100, verbose_name="Тема сообщения")
     text = models.TextField(verbose_name="Текст сообщения")
@@ -14,7 +14,7 @@ class Feedback(models.Model):
 
 class Person(models.Model):
     full_name = models.CharField(max_length=110, db_index=True, verbose_name="ФИО")
-    nationality = models.CharField(max_length=40, blank=True, null=True, default='', verbose_name="Гражданство")
+    nationality = models.CharField(max_length=60, blank=True, null=True, default='', verbose_name="Гражданство")
 
     def __str__(self):
         return '{}'.format(self.full_name)

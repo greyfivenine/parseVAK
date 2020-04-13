@@ -2,3 +2,4 @@ parsevak/settings.py
 __pycache__
 *.pyc
 datadump.json
+document/migrations
