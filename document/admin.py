@@ -16,7 +16,7 @@ class CertificateNumberAdmin(admin.ModelAdmin):
         model = CertificateNumber
 
     list_display = [field.name for field in CertificateNumber._meta.fields]
-    search_fields = ['person__full_name']
+    search_fields = ['person__full_name', 'certificate_number']
 
 class UniversityAdmin(admin.ModelAdmin):
     class Meta:

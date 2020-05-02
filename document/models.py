@@ -63,6 +63,9 @@ class Preamble(models.Model):
     preamble_short = models.CharField(max_length=10, db_index=True, verbose_name="Преамбула кор.")
     preamble = models.CharField(max_length=150, verbose_name="Преамбула")
 
+    def __str__(self):
+        return '{0}'.format(self.preamble_short)
+
 class Council(models.Model):
     council_code = models.CharField(max_length=20, verbose_name="Код совета")
     universities = models.ManyToManyField('University', related_name='universities', verbose_name="Состав совета")
@@ -81,10 +84,11 @@ class Document(models.Model):
     document_slug = models.SlugField(max_length=50, unique=True)
     document_create_date = models.DateTimeField(auto_now_add=True, verbose_name="Дата создания документа")
     document_date = models.DateTimeField(verbose_name="Дата публикации документа")
-    document_name = models.CharField(max_length=150, db_index=True, verbose_name="Наименование документа")
+    document_name = models.CharField(max_length=200, db_index=True, verbose_name="Наименование документа")
     document_number = models.CharField(max_length=10, db_index=True, verbose_name="Номер документа")
     document_type = models.ForeignKey('DocumentType', on_delete=models.CASCADE, db_index=True, verbose_name="УИД типа документа")
     document_link = models.CharField(max_length=100, verbose_name="Ссылка на документ")
+    document_extra = models.CharField(max_length=10, default='', db_index=False, verbose_name="Доп. инфо")
 
     def get_absolute_url(self):
         return reverse('get_document_content', kwargs={'slug': self.document_slug})

@@ -43,6 +43,9 @@ def get_document_content(request, slug):
         doc_rows = doc.doc_rows.order_by('degree', 'science', 'certificate_number__person__full_name')
     elif doc.document_type_id == 2:
         doc_rows = doc.doc_rows.order_by('rank', 'certificate_number__person__full_name')
+    elif doc.document_type_id == 4:
+        doc_rows = doc.doc_rows.order_by('certificate_number__person__full_name')
+
     return render(request, 'document/doc_content.html', context = {'doc_rows':doc_rows, 'doc':doc, 'active_header':active_header})
 
 class FeedbackView(View):

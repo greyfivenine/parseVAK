@@ -61,6 +61,13 @@
         }
     },
     {
+        "model": "document.documenttype",
+        "pk": 4,
+        "fields": {
+            "type": "Приказы об отмене"
+        }
+    },
+    {
         "model": "document.degree",
         "pk": 1,
         "fields": {

@@ -1,3 +1,9 @@
+@media (max-width: 576px) {
+    div.ads{
+        visibility: hidden;
+    }
+}
+
 textarea:focus, input:focus, input[type]:focus {
     border-color: rgba(197, 206, 220, 1)!important;
     box-shadow: 0 1px 1px rgba(100, 100, 100, 0.075) inset, 0 0 8px rgba(100, 100, 100, 0.6)!important;
