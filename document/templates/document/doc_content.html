@@ -77,7 +77,7 @@
                             <p class="mb-0 date_bold">№ {{ doc_row.certificate_number }}</p>
                         <p class="mb-0 date_bold">{{ doc_row.certificate_number.registration_date }}</p></td>
                         <td>{{ doc_row.degree }} {{ doc_row.science }}</td>
-                        <td> {{ doc_row.council }}
+                        <td> {{ doc_row.council|linebreaks }}
                         <p class="date_bold">{{ doc_row.defence_date }}, № {{ doc_row.decision_num }}</p></td>
                     </tr>
                 {% endfor %}

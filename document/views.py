@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.core.paginator import Paginator
 from django.contrib.sessions.models import Session
 from django.utils import timezone
+from django.db.models import Min, Max
 
 from .models import Document, DocumentRow, Feedback
 from .forms import SearchForm, FastSearchForm, FeedbackForm
@@ -28,6 +29,11 @@ def get_index_page(request):
         else:
             raise Http404('Page not found')
     else:
+        max_date = Document.objects.all().aggregate(Max('document_date'))
+        min_date = Document.objects.all().aggregate(Min('document_date'))
+        context['max_date'] = max_date['document_date__max']
+        context['min_date'] = min_date['document_date__min']
+
         return render(request, 'document/index.html', context = context)
 
 def get_faq_page(request):

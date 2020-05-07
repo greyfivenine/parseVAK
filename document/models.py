@@ -72,7 +72,7 @@ class Council(models.Model):
     specialities = models.ManyToManyField('Speciality', related_name='councils', verbose_name="Сфера совета")
 
     def __str__(self):
-        return '; '.join([value.__str__() for value in self.universities.all()])
+        return ';\n'.join([value.__str__() for value in self.universities.all()])
 
 class DocumentType(models.Model):
     type = models.CharField(max_length=51)
@@ -88,7 +88,7 @@ class Document(models.Model):
     document_number = models.CharField(max_length=10, db_index=True, verbose_name="Номер документа")
     document_type = models.ForeignKey('DocumentType', on_delete=models.CASCADE, db_index=True, verbose_name="УИД типа документа")
     document_link = models.CharField(max_length=100, verbose_name="Ссылка на документ")
-    document_extra = models.CharField(max_length=10, default='', db_index=False, verbose_name="Доп. инфо")
+    document_extra = models.CharField(max_length=10, default='', verbose_name="Доп. инфо")
 
     def get_absolute_url(self):
         return reverse('get_document_content', kwargs={'slug': self.document_slug})
