@@ -1,8 +1,14 @@
 from django.contrib import admin
 
-from .models import Person, CertificateNumber, University, Preamble, Council, Document, DocumentRow
+from .models import Person, CertificateNumber, University, Preamble, Council, Document, DocumentRow, Feedback
 
 # Register your models here.
+
+class FeedbackAdmin(admin.ModelAdmin):
+    class Meta:
+        model = Feedback
+
+    list_display = ['name', 'email', 'theme']
 
 class PersonAdmin(admin.ModelAdmin):
     class Meta:
@@ -61,3 +67,4 @@ admin.site.register(Preamble, PreambleAdmin)
 admin.site.register(Council, CouncilAdmin)
 admin.site.register(Document, DocumentAdmin)
 admin.site.register(DocumentRow, DocumentRowAdmin)
+admin.site.register(Feedback, FeedbackAdmin)
