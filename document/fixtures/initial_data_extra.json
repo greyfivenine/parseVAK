@@ -10254,5 +10254,1789 @@
             "speciality_name": "Применения и эксплуатации вооружения и средств радиационной, химической и биологической защиты кораблей и частей военно-морского флота",
             "speciality_code": "00.00.00"
         }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1713,
+        "fields": {
+            "speciality_name": "Иудаики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1714,
+        "fields": {
+            "speciality_name": "Геометрии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1715,
+        "fields": {
+            "speciality_name": "Биофизики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1716,
+        "fields": {
+            "speciality_name": "Гидравлики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1717,
+        "fields": {
+            "speciality_name": "Психотерапии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1718,
+        "fields": {
+            "speciality_name": "Физики плазмы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1719,
+        "fields": {
+            "speciality_name": "Ремонта машин",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1720,
+        "fields": {
+            "speciality_name": "Истории музыки",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1721,
+        "fields": {
+            "speciality_name": "Музейного дела",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1722,
+        "fields": {
+            "speciality_name": "Спортивных игр",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1723,
+        "fields": {
+            "speciality_name": "Востоковедения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1724,
+        "fields": {
+            "speciality_name": "Металловедения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1725,
+        "fields": {
+            "speciality_name": "Общей живописи",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1726,
+        "fields": {
+            "speciality_name": "Легкой атлетики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1727,
+        "fields": {
+            "speciality_name": "Русской истории",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1728,
+        "fields": {
+            "speciality_name": "Публичного права",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1729,
+        "fields": {
+            "speciality_name": "Искусствоведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1730,
+        "fields": {
+            "speciality_name": "Финансового учета",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1731,
+        "fields": {
+            "speciality_name": "Медицинской химии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1732,
+        "fields": {
+            "speciality_name": "Мастерства актера",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1733,
+        "fields": {
+            "speciality_name": "Политических наук",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1734,
+        "fields": {
+            "speciality_name": "Германских языков",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1735,
+        "fields": {
+            "speciality_name": "Северной филологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1736,
+        "fields": {
+            "speciality_name": "Татарской филологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1737,
+        "fields": {
+            "speciality_name": "Коммерции и сервиса",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1738,
+        "fields": {
+            "speciality_name": "Спортивной медицины",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1739,
+        "fields": {
+            "speciality_name": "Городского кадастра",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1740,
+        "fields": {
+            "speciality_name": "Прикладной геодезии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1741,
+        "fields": {
+            "speciality_name": "Общего почвоведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1742,
+        "fields": {
+            "speciality_name": "Зоологии и экологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1743,
+        "fields": {
+            "speciality_name": "Игровых видов спорта",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1744,
+        "fields": {
+            "speciality_name": "Экономики транспорта",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1745,
+        "fields": {
+            "speciality_name": "Физики твердого тела",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1746,
+        "fields": {
+            "speciality_name": "Физики и теплотехники",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1747,
+        "fields": {
+            "speciality_name": "Пищевой биотехнологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1748,
+        "fields": {
+            "speciality_name": "Академической живописи",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1749,
+        "fields": {
+            "speciality_name": "Надзорной деятельности",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1750,
+        "fields": {
+            "speciality_name": "Философии и социологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1751,
+        "fields": {
+            "speciality_name": "Зоогигиены и кормления",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1752,
+        "fields": {
+            "speciality_name": "Геоэкологии и геохимии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1753,
+        "fields": {
+            "speciality_name": "Учета, анализа и аудита",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1754,
+        "fields": {
+            "speciality_name": "Практической психологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1755,
+        "fields": {
+            "speciality_name": "Дагестанской литературы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1756,
+        "fields": {
+            "speciality_name": "Основ английского языка",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1757,
+        "fields": {
+            "speciality_name": "Биохимии и микробиологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1758,
+        "fields": {
+            "speciality_name": "Гистологии и эмбриологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1759,
+        "fields": {
+            "speciality_name": "Народного хорового пения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1760,
+        "fields": {
+            "speciality_name": "Терапии и эндокринологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1761,
+        "fields": {
+            "speciality_name": "Пожарной тактики и службы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1762,
+        "fields": {
+            "speciality_name": "Экологии и естествознания",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1763,
+        "fields": {
+            "speciality_name": "Всеобщей истории искусств",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1764,
+        "fields": {
+            "speciality_name": "Философии и истории науки",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1765,
+        "fields": {
+            "speciality_name": "Менеджмента в образовании",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1766,
+        "fields": {
+            "speciality_name": "Философии и религиоведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1767,
+        "fields": {
+            "speciality_name": "Перевода и переводоведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1768,
+        "fields": {
+            "speciality_name": "Медицинской реабилитологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1769,
+        "fields": {
+            "speciality_name": "Динамики и прочности машин",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1770,
+        "fields": {
+            "speciality_name": "Высшей алгебры и геометрии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1771,
+        "fields": {
+            "speciality_name": "Истории таджикского народа",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1772,
+        "fields": {
+            "speciality_name": "Романских языков и перевода",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1773,
+        "fields": {
+            "speciality_name": "Экономики труда и персонала",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1774,
+        "fields": {
+            "speciality_name": "Маркетинга и торгового дела",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1775,
+        "fields": {
+            "speciality_name": "Базовых машин и автомобилей",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1776,
+        "fields": {
+            "speciality_name": "Неврологии детского возраста",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1777,
+        "fields": {
+            "speciality_name": "Татарского и русского языков",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1778,
+        "fields": {
+            "speciality_name": "Культурологии и антропологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1779,
+        "fields": {
+            "speciality_name": "Экономики бизнеса и финансов",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1780,
+        "fields": {
+            "speciality_name": "Гидрофизики и гидропрогнозов",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1781,
+        "fields": {
+            "speciality_name": "Общей и неорганической химии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1782,
+        "fields": {
+            "speciality_name": "Педагогики и яковлевоведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1783,
+        "fields": {
+            "speciality_name": "Биологии и экологии животных",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1784,
+        "fields": {
+            "speciality_name": "Технологий сервиса и туризма",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1785,
+        "fields": {
+            "speciality_name": "Экономики сельского хозяйства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1786,
+        "fields": {
+            "speciality_name": "Мировой литературы и культуры",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1787,
+        "fields": {
+            "speciality_name": "Отраслевой и мировой экономики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1788,
+        "fields": {
+            "speciality_name": "Стоматологии детского возраста",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1789,
+        "fields": {
+            "speciality_name": "Анестезиологии и реаниматологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1790,
+        "fields": {
+            "speciality_name": "Отоларингологии и офтальмологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1791,
+        "fields": {
+            "speciality_name": "Французского языка и литературы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1792,
+        "fields": {
+            "speciality_name": "Бухгалтерского учета и контроля",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1793,
+        "fields": {
+            "speciality_name": "Всемирной истории и политологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1794,
+        "fields": {
+            "speciality_name": "Русской и зарубежной литературы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1795,
+        "fields": {
+            "speciality_name": "Коммерции и технологии торговли",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1796,
+        "fields": {
+            "speciality_name": "Мировой и региональной экономики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1797,
+        "fields": {
+            "speciality_name": "Станций, узлов и грузовой работы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1798,
+        "fields": {
+            "speciality_name": "Аналитической и физической химии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1799,
+        "fields": {
+            "speciality_name": "Логистики и организации перевозок",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1800,
+        "fields": {
+            "speciality_name": "Общей и педагогической психологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1801,
+        "fields": {
+            "speciality_name": "Промысловой геологии нефти и газа",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1802,
+        "fields": {
+            "speciality_name": "Физики и методики обучения физике",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1803,
+        "fields": {
+            "speciality_name": "Звукорежиссуры кино и телевидения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1804,
+        "fields": {
+            "speciality_name": "Общей физики и волновых процессов",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1805,
+        "fields": {
+            "speciality_name": "Экономики, финансов и менеджмента",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1806,
+        "fields": {
+            "speciality_name": "Теоретической и прикладной физики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1807,
+        "fields": {
+            "speciality_name": "Дошкольной педагогики и психологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1808,
+        "fields": {
+            "speciality_name": "Менеджмента инвестиций и инноваций",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1809,
+        "fields": {
+            "speciality_name": "Товароведения и экспертизы товаров",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1810,
+        "fields": {
+            "speciality_name": "Психиатрии, медицинской психологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1811,
+        "fields": {
+            "speciality_name": "Общей и клинической патофизиологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1812,
+        "fields": {
+            "speciality_name": "Экономической теории и менеджмента",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1813,
+        "fields": {
+            "speciality_name": "Социологии и управления персоналом",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1814,
+        "fields": {
+            "speciality_name": "Реставрации художественного металла",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1815,
+        "fields": {
+            "speciality_name": "Терапии и профессиональных болезней",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1816,
+        "fields": {
+            "speciality_name": "Биологии и методики ее преподавания",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1817,
+        "fields": {
+            "speciality_name": "Экономики и финансового менеджмента",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1818,
+        "fields": {
+            "speciality_name": "Управления войсками и службы штабов",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1819,
+        "fields": {
+            "speciality_name": "Экономики и организации предприятий",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1820,
+        "fields": {
+            "speciality_name": "Истории и гуманитарного образования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1821,
+        "fields": {
+            "speciality_name": "Инфекционных и инвазионных болезней",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1822,
+        "fields": {
+            "speciality_name": "Прикладной информатики и управления",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1823,
+        "fields": {
+            "speciality_name": "Общего языкознания и русского языка",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1824,
+        "fields": {
+            "speciality_name": "Прикладной и вычислительной механики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1825,
+        "fields": {
+            "speciality_name": "Вычислительных машин, систем и сетей",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1826,
+        "fields": {
+            "speciality_name": "Ортодонтии и детского протезирования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1827,
+        "fields": {
+            "speciality_name": "Предпринимательского права и таможни",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1828,
+        "fields": {
+            "speciality_name": "Педагогики профессионального обучения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1829,
+        "fields": {
+            "speciality_name": "Права и социально-культурного сервиса",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1830,
+        "fields": {
+            "speciality_name": "Эколого-химической экспертизы товаров",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1831,
+        "fields": {
+            "speciality_name": "Специальной и практической психологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1832,
+        "fields": {
+            "speciality_name": "Пожарной безопасности в строительстве",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1833,
+        "fields": {
+            "speciality_name": "Коррекционной психологии и педагогики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1834,
+        "fields": {
+            "speciality_name": "Разведения, генетики и животноводства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1835,
+        "fields": {
+            "speciality_name": "Механики и сельскохозяйственных машин",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1836,
+        "fields": {
+            "speciality_name": "Общей психологии и психологии развития",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1837,
+        "fields": {
+            "speciality_name": "Истории россии хх века -начала хх века",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1838,
+        "fields": {
+            "speciality_name": "Теории и методики обучения информатике",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1839,
+        "fields": {
+            "speciality_name": "Экономико-математического моделирования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1840,
+        "fields": {
+            "speciality_name": "Информатики и информационных технологий",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1841,
+        "fields": {
+            "speciality_name": "Истории и методики преподавания истории",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1842,
+        "fields": {
+            "speciality_name": "Истории и философии образования и науки",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1843,
+        "fields": {
+            "speciality_name": "Микробиологии, вирусологии и иммунологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1844,
+        "fields": {
+            "speciality_name": "Социального и семейного законодательства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1845,
+        "fields": {
+            "speciality_name": "Экономической теории и мировой экономики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1846,
+        "fields": {
+            "speciality_name": "Истории, истории культуры и музееведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1847,
+        "fields": {
+            "speciality_name": "Химического и экологического образования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1848,
+        "fields": {
+            "speciality_name": "Теории государства и права и политологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1849,
+        "fields": {
+            "speciality_name": "Экономики и управления социальной сферой",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1850,
+        "fields": {
+            "speciality_name": "Профессиональной педагогики и психологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1851,
+        "fields": {
+            "speciality_name": "Маркетинга и стратегического планирования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1852,
+        "fields": {
+            "speciality_name": "Журналистики и русской литературы хх века",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1853,
+        "fields": {
+            "speciality_name": "Методологии науки и прикладной социологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1854,
+        "fields": {
+            "speciality_name": "Применения войск противовоэдушной обороны",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1855,
+        "fields": {
+            "speciality_name": "Государственного и административного права",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1856,
+        "fields": {
+            "speciality_name": "Экономики кооперации и предпринимательства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1857,
+        "fields": {
+            "speciality_name": "Социальной педагогики и педагогики детства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1858,
+        "fields": {
+            "speciality_name": "Неонатологии и неонатальной реаниматологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1859,
+        "fields": {
+            "speciality_name": "Гражданского права и гражданского процесса",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1860,
+        "fields": {
+            "speciality_name": "Экономической теории и бухгалтерского учета",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1861,
+        "fields": {
+            "speciality_name": "Земледелия и мелиорации сельского хозяйства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1862,
+        "fields": {
+            "speciality_name": "Истории и теории исполнительского искусства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1863,
+        "fields": {
+            "speciality_name": "Динамики и управления летательных аппаратов",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1864,
+        "fields": {
+            "speciality_name": "Управления и технологий в туризме и сервисе",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1865,
+        "fields": {
+            "speciality_name": "Педагогики и методики начального образования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1866,
+        "fields": {
+            "speciality_name": "Небесной механики, астрометрии и гравиметрии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1867,
+        "fields": {
+            "speciality_name": "Эконометрики и математического моделирования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1868,
+        "fields": {
+            "speciality_name": "Стандартизации, сертификации и товароведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1869,
+        "fields": {
+            "speciality_name": "Экологии человека и гигиены окружающей среды",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1870,
+        "fields": {
+            "speciality_name": "Истории зарубежной журналистики и литературы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1871,
+        "fields": {
+            "speciality_name": "Гигиены детей и подростков и гигиены питания",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1872,
+        "fields": {
+            "speciality_name": "Современного таджикского литературного языка",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1873,
+        "fields": {
+            "speciality_name": "Общего земледелия, защиты растений и селекции",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1874,
+        "fields": {
+            "speciality_name": "Общей педагогики и образовательных технологий",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1875,
+        "fields": {
+            "speciality_name": "Микробиологии, вирусологии и ветсанэкспертизы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1876,
+        "fields": {
+            "speciality_name": "Начертательной геометрии и инженерной графики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1877,
+        "fields": {
+            "speciality_name": "Управления сельскохозяйственным производством",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1878,
+        "fields": {
+            "speciality_name": "Информационных технологий и систем в экономике",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1879,
+        "fields": {
+            "speciality_name": "Менеджмента и предпринимательской деятельности",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1880,
+        "fields": {
+            "speciality_name": "Педагогики, психологии и специальных дисциплин",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1881,
+        "fields": {
+            "speciality_name": "Системного анализа и информационных технологий",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1882,
+        "fields": {
+            "speciality_name": "Биомедицинской и полупроводниковой электроники",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1883,
+        "fields": {
+            "speciality_name": "Конструирования и производства радиоаппаратуры",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1884,
+        "fields": {
+            "speciality_name": "Коммерческой деятельности и предпринимательства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1885,
+        "fields": {
+            "speciality_name": "Современной журналистики и общественного мнения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1886,
+        "fields": {
+            "speciality_name": "Информатики и методики преподавания информатики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1887,
+        "fields": {
+            "speciality_name": "Неврологии, нейрохирургии и медицинской генетики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1888,
+        "fields": {
+            "speciality_name": "Атомной физики, физики плазмы и микроэлектроники",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1889,
+        "fields": {
+            "speciality_name": "Теории права и государственно-правовых дисциплин",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1890,
+        "fields": {
+            "speciality_name": "Экономической теории и основ предпринимательства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1891,
+        "fields": {
+            "speciality_name": "Европейского права и сравнительного правоведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1892,
+        "fields": {
+            "speciality_name": "Методики преподавания русского языка и литературы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1893,
+        "fields": {
+            "speciality_name": "Отечественной филологии и прикладных коммуникаций",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1894,
+        "fields": {
+            "speciality_name": "Литературно-художественной критики и публицистики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1895,
+        "fields": {
+            "speciality_name": "Управления инновациями и организации производства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1896,
+        "fields": {
+            "speciality_name": "Оборудования и технологии сварочного производства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1897,
+        "fields": {
+            "speciality_name": "Высшей математики и математического моделирования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1898,
+        "fields": {
+            "speciality_name": "Экономического анализа и управления недвижимостью",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1899,
+        "fields": {
+            "speciality_name": "Прикладной математики и компьютерной безопасности",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1900,
+        "fields": {
+            "speciality_name": "Управления экономическими и социальными процессами",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1901,
+        "fields": {
+            "speciality_name": "Травматологии, ортопедии и военно-полевой хирургии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1902,
+        "fields": {
+            "speciality_name": "Иностранных языков в области экономики и управления",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1903,
+        "fields": {
+            "speciality_name": "Концертмейстерского мастерства и камерного ансамбля",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1904,
+        "fields": {
+            "speciality_name": "Педагогики и методики профессионального образования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1905,
+        "fields": {
+            "speciality_name": "Современного русского языка и методики преподавания",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1906,
+        "fields": {
+            "speciality_name": "Экологической безопасности автомобильного транспорта",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1907,
+        "fields": {
+            "speciality_name": "Технологии интегрированных автоматизированных систем",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1908,
+        "fields": {
+            "speciality_name": "Почвоведения, агрохимии, мелиорации и землеустройства",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1909,
+        "fields": {
+            "speciality_name": "Горных машин и транспортно-технологических комплексов",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1910,
+        "fields": {
+            "speciality_name": "Специальных исторических дисциплин и документоведения",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1911,
+        "fields": {
+            "speciality_name": "Организации, планирования и управления строительством",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1912,
+        "fields": {
+            "speciality_name": "Эпизоотологии, паразитологии и патологической анатомии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1913,
+        "fields": {
+            "speciality_name": "Технологического проектирования и управления качеством",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1914,
+        "fields": {
+            "speciality_name": "Теории и методики дошкольного и начального образования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1915,
+        "fields": {
+            "speciality_name": "Конституционного, административного и финансового права",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1916,
+        "fields": {
+            "speciality_name": "Менеджмента, экономики и управления народным хозяйством",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1917,
+        "fields": {
+            "speciality_name": "Гражданского, предпринимательского и транспортного права",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1918,
+        "fields": {
+            "speciality_name": "Финансового, предпринимательского и информационного права",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1919,
+        "fields": {
+            "speciality_name": "Техники и технологии машиностроения и пищевых производств",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1920,
+        "fields": {
+            "speciality_name": "Экономики и управления на предприятиях культуры и туризма",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1921,
+        "fields": {
+            "speciality_name": "Информационно-управляющих комплексов летательных аппаратов",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1922,
+        "fields": {
+            "speciality_name": "Управления, организации производства и отраслевой экономики",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1923,
+        "fields": {
+            "speciality_name": "Управления финансово-экономической деятельностью и контроля",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1924,
+        "fields": {
+            "speciality_name": "Физиологии и экологии человека с основами медицинских знаний",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1925,
+        "fields": {
+            "speciality_name": "Правового обеспечения государственной и муниципальной службы",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1926,
+        "fields": {
+            "speciality_name": "Теории и методики профессионально-педагогического образования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1927,
+        "fields": {
+            "speciality_name": "Хирургии, акушерства и внутренних незаразных болезней животных",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1928,
+        "fields": {
+            "speciality_name": "Военных систем космической, радиорелейной и тропосферной связи",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1929,
+        "fields": {
+            "speciality_name": "Хирургии, травматологии, ортопедии и хирургической эндокринологии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1930,
+        "fields": {
+            "speciality_name": "Этнохудожественного творчества и татарского музыкального фольклора",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1931,
+        "fields": {
+            "speciality_name": "Мировой экономики минерально-сырьевого комплекса и недропользования",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1932,
+        "fields": {
+            "speciality_name": "Химической технологии неметаллических материалов и физической химии",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1933,
+        "fields": {
+            "speciality_name": "Межкультурной коммуникации и методики преподавания иностранных языков",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1934,
+        "fields": {
+            "speciality_name": "Эксплуатации комплексов авиационного вооружения (и прицельных систем)",
+            "speciality_code": "00.00.00"
+        }
+    },
+    {
+        "model": "document.speciality",
+        "pk": 1935,
+        "fields": {
+            "speciality_name": "Фундаментальной и прикладной математики, теории и методики обучения математике",
+            "speciality_code": "00.00.00"
+        }
     }
 ]
